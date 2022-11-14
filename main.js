@@ -23,7 +23,7 @@ class Messenger extends Message{
     send(name,message){
         this.name = name;
         this.message = message;
-        arr.push(this.gettime()+" "+ this.name + ":" + " "+ this.message);
+        newArray.push(this.gettime()+" "+ this.name + ":" + " "+ this.message);
         
     }
     show_history(){
